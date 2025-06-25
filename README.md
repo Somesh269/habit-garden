@@ -1,12 +1,36 @@
-# React + Vite
+# 🌼 Habit Garden
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> My first React project — where I planted my roots into the React ecosystem.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧭 Why I Built This
 
-## Expanding the ESLint configuration
+This project marks the **beginning of my journey into React**. Coming from a .NET + Angular background, I wanted to **learn React by building**, not just reading docs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I didn’t want to create just another "To-Do App". Instead, I built a **Habit Garden** — where every habit is a seed, and every daily action helps it grow. It was a way for me to internalize the **React mental model**, while creating something visually playful and emotionally satisfying.
+
+---
+
+## 🌱 What I Learned
+
+Building Habit Garden helped me understand and apply key React fundamentals:
+
+| Concept                     | What I Took Away |
+|-----------------------------|------------------|
+| `useState`                  | How component-level memory works in function components |
+| `useEffect`                 | When and why to use side effects like syncing with local storage |
+| JSX                         | Learned how JSX differs from HTML and why it compiles to `React.createElement` |
+| Props & Lifting State       | Understood top-down data flow and how to keep logic centralized |
+| Component Design            | Practiced separating smart/dumb components |
+| CSS Modules                 | Avoided global CSS, scoped my styles cleanly |
+
+---
+
+## 🌿 Features
+
+- ✅ Add new habits and track their progress
+- ✅ Water habits daily to grow them through these stages:
+  - 🌱 → 🌿 → 🪴 → 🌼 → 🏵️ → 🌳
+- ✅ Reset or delete any habit
+- ✅ Habits persist in browser via Local Storage
