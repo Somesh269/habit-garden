@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e0f7fa, #c8e6c9);
+  padding: 2rem;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  color: #2e7d32;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 1rem;
+}

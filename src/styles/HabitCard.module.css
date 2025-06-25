@@ -1,0 +1,71 @@
+.card {
+  background: #fffdf8ee;
+  border: 2px solid #a5d6a7;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 200px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.stage {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.level {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.button {
+  flex: 1;
+  padding: 0.4rem 0.6rem;
+  margin: 0 0.25rem;
+  background: #66bb6a;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background: #388e3c;
+}
+
+.delete {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: #ef5350;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.delete:hover {
+  color: #c62828;
+}

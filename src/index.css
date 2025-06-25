@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom right, #fdf6e3, #e1f5c4);
+  min-height: 100vh;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.habit-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
